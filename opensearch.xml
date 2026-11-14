@@ -3,6 +3,6 @@
   <ShortName>Google NoAI</ShortName>
   <Description>Google NoAI</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Url type="text/html" method="get" template="https://google.com{searchTerms}+-ai"/>
+  <Url type="text/html" method="get" template="https://google.com/search?q=(searchTerms)+-ai"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://github.io"/>
 </OpenSearchDescription>
