@@ -4,5 +4,5 @@
   <Description>Google NoAI</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Url type="text/html" method="get" template="https://google.com{searchTerms}+-ai"/>
-  <Url type="application/opensearchdescription+xml" rel="self" template="https://c0pilotonly.github.io/opensearch.xml"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://github.io"/>
 </OpenSearchDescription>
