@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com">
+  <ShortName>Google sin IA</ShortName>
+  <Description>Google con -ai</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Url type="text/html" method="get" template="https://google.com{searchTerms}+-ai"/>
+</OpenSearchDescription>
