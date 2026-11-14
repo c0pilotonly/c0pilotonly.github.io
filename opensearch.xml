@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<OpenSearchDescription xmlns="http://a9.com">
+<OpenSearchDescription xmlns="https://a9.com">
   <ShortName>Google NoAI</ShortName>
   <Description>Google NoAI</Description>
   <InputEncoding>UTF-8</InputEncoding>
