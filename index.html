@@ -3,12 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Google NoAI</title>
-  <link rel="search" type="application/opensearchdescription+xml" title="Google NoAI" href="https://c0pilotonly
-    .github.io/opensearch.xml">
+  <link rel="search" type="application/opensearchdescription+xml" title="Google NoAI" href="https://copilotonly.github.io/opensearch.xml">
+  <script>
+    const q = new URLSearchParams(window.location.search).get('q');
+    if (q) window.location.replace('https://google.com' + encodeURIComponent(q) + '+-ai');
+  </script>
 </head>
 <body>
-  <form action="https://google.com" method="get">
-    <input type="text" name="q" value="test -ai">
+  <form action="/" method="get">
+    <input type="text" name="q" value="test">
     <button type="submit">Search</button>
   </form>
 </body>
